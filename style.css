@@ -128,7 +128,7 @@
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-weight: 700;
   text-align: center;
-  font-size: 32px;
+  font-size: 22px;
 }
 #es-fizzgo.es-fizzgo .es-section1__text {
   margin: 0;
@@ -139,7 +139,7 @@
   font-family: "HurmeGeometricSans3-Light", sans-serif;
   font-weight: 300;
   text-align: center;
-  font-size: 32px;
+  font-size: 20px;
   padding-top: 25px;
 }
 #es-fizzgo.es-fizzgo .es-section1__imageWrapper {
@@ -385,7 +385,7 @@
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-weight: 700;
   text-align: center;
-  font-size: 32px;
+  font-size: 22px;
 }
 #es-fizzgo.es-fizzgo .es-section2__text {
   margin: 0;
@@ -396,7 +396,7 @@
   font-family: "HurmeGeometricSans3-Light", sans-serif;
   font-weight: 300;
   text-align: center;
-  font-size: 32px;
+  font-size: 20px;
   padding-top: 25px;
 }
 #es-fizzgo.es-fizzgo .es-section2__imageWrapper {
@@ -516,7 +516,7 @@
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-weight: 700;
   text-align: center;
-  font-size: 32px;
+  font-size: 22px;
 }
 #es-fizzgo.es-fizzgo .es-section3__text {
   margin: 0;
@@ -527,7 +527,7 @@
   font-family: "HurmeGeometricSans3-Light", sans-serif;
   font-weight: 300;
   text-align: center;
-  font-size: 32px;
+  font-size: 20px;
   padding: 25px 0;
 }
 #es-fizzgo.es-fizzgo .es-section3__imageWrapper {
@@ -617,7 +617,6 @@
   margin: 0;
   padding-bottom: 32px;
   background: rgb(237, 235, 230);
-  background: linear-gradient(180deg, rgb(237, 235, 230) 0%, rgb(237, 235, 230) 54%, rgb(227, 220, 214) 54%, rgb(237, 235, 230) 100%);
 }
 #es-fizzgo.es-fizzgo .es-slider__title {
   margin: 0;
@@ -670,11 +669,14 @@
   padding-top: 15px;
   height: 220px;
 }
+#es-fizzgo.es-fizzgo .es-slider__image--smaller {
+  height: 155px;
+}
 #es-fizzgo.es-fizzgo .es-slider__slide {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
+  min-height: 360px;
   width: 230px;
 }
 #es-fizzgo.es-fizzgo .es-slider__button {
@@ -710,6 +712,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  max-width: 790px;
+  margin: 0 auto;
 }
 #es-fizzgo.es-fizzgo .es-slider .swiper-pagination-bullet-active {
   background-color: #182849;
@@ -1018,6 +1022,19 @@
     font-size: 22px;
   }
 }
+
+@media screen and (min-width: 1105px) {
+  #es-fizzgo.es-fizzgo .es-slider {
+    background: linear-gradient(180deg, rgb(237, 235, 230) 0%, rgb(237, 235, 230) 54%, rgb(227, 220, 214) 54%, rgb(237, 235, 230) 100%);
+  }
+  #es-fizzgo.es-fizzgo .es-slider .es-swiper-wrapper {
+    max-width: 100%;
+  }
+}
+  
+
+
+
 @media screen and (min-width: 1200px) {
   #es-fizzgo.es-fizzgo .es-style__name {
     font-size: 32px;
